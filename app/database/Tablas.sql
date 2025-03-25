@@ -17,3 +17,12 @@ INSERT INTO productos(tipo,genero,talla,precio)
     ('Camisa','Masculino','L',145);
     
 SELECT * FROM productos;
+
+CREATE TABLE usuarios(
+id			INT AUTO_INCREMENT PRIMARY KEY,
+nombreuser		VARCHAR(40) NOT NULL,
+passworduser	VARCHAR(80) NOT NULL
+)ENGINE=INNODB;
+
+INSERT INTO usuarios(nombreuser,passworduser) VALUES('josue123','123');
+SELECT * FROM usuarios; add
