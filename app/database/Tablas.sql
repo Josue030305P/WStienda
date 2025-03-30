@@ -26,3 +26,4 @@ passworduser	VARCHAR(80) NOT NULL
 
 INSERT INTO usuarios(nombreuser,passworduser) VALUES('josue123','123');
 SELECT * FROM usuarios; add
+
